@@ -14,13 +14,13 @@
   "dependencies": {
     "@mantine/core": "8.3.13",
     "@mantine/hooks": "8.3.13",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
     "@iconify/react": "^6.0.2",
-    "@types/react": "^19.2.9",
+    "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
     "postcss": "^8.5.6",
