@@ -641,9 +641,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:8.3.15":
-  version: 8.3.15
-  resolution: "@mantine/core@npm:8.3.15"
+"@mantine/core@npm:8.3.16":
+  version: 8.3.16
+  resolution: "@mantine/core@npm:8.3.16"
   dependencies:
     "@floating-ui/react": "npm:^0.27.16"
     clsx: "npm:^2.1.1"
@@ -652,19 +652,19 @@ __metadata:
     react-textarea-autosize: "npm:8.5.9"
     type-fest: "npm:^4.41.0"
   peerDependencies:
-    "@mantine/hooks": 8.3.15
+    "@mantine/hooks": 8.3.16
     react: ^18.x || ^19.x
     react-dom: ^18.x || ^19.x
-  checksum: 10c0/e43a55ecd7fa8b69834cf86d6fa44ee4e2718eb1d477e9456e9b49017c48175766d6cf7bbb9b136a136320b6f7d27c4a9b86d2cd1d7cfa33ef406ee446866140
+  checksum: 10c0/91dc73440067cb556cb65e51c9a191441527256ddb95384fdec23945dea0cb4add44b60f2acf2a423d0ce17fa3ad02b4a8f23f77419fe4f50623440f2171ee84
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:8.3.15":
-  version: 8.3.15
-  resolution: "@mantine/hooks@npm:8.3.15"
+"@mantine/hooks@npm:8.3.16":
+  version: 8.3.16
+  resolution: "@mantine/hooks@npm:8.3.16"
   peerDependencies:
     react: ^18.x || ^19.x
-  checksum: 10c0/e4b8af33243fbf5a09385874b8c0349acd8992b3b1d19551e22d5574b09f8871ec62c2254a48529c81e84b25a48888b38f98c1aec4d3ec0cfc47600c689e9327
+  checksum: 10c0/2457a5aac1b614470691e0f5c57336d439ed10da3c18c85c05362c7f55398cb2bf97c7d3dfc477e01af94eb3ad7f0de5b9ad29f674de906fe417b453d06b63d8
   languageName: node
   linkType: hard
 
@@ -1780,6 +1780,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.5.8":
+  version: 8.5.8
+  resolution: "postcss@npm:8.5.8"
+  dependencies:
+    nanoid: "npm:^3.3.11"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/dd918f7127ee7c60a0295bae2e72b3787892296e1d1c3c564d7a2a00c68d8df83cadc3178491259daa19ccc54804fb71ed8c937c6787e08d8bd4bedf8d17044c
+  languageName: node
+  linkType: hard
+
 "prettier@npm:^3.8.1":
   version: 3.8.1
   resolution: "prettier@npm:3.8.1"
@@ -2323,12 +2334,12 @@ __metadata:
   dependencies:
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.7.1"
     "@iconify/react": "npm:^6.0.2"
-    "@mantine/core": "npm:8.3.15"
-    "@mantine/hooks": "npm:8.3.15"
+    "@mantine/core": "npm:8.3.16"
+    "@mantine/hooks": "npm:8.3.16"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
     "@vitejs/plugin-react": "npm:^5.1.4"
-    postcss: "npm:^8.5.6"
+    postcss: "npm:^8.5.8"
     postcss-preset-mantine: "npm:1.18.0"
     postcss-simple-vars: "npm:^7.0.1"
     prettier: "npm:^3.8.1"
