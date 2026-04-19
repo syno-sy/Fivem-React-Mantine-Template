@@ -280,9 +280,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@mantine/core@npm:9.0.1"
+"@mantine/core@npm:9.0.2":
+  version: 9.0.2
+  resolution: "@mantine/core@npm:9.0.2"
   dependencies:
     "@floating-ui/react": "npm:^0.27.19"
     clsx: "npm:^2.1.1"
@@ -290,19 +290,19 @@ __metadata:
     react-remove-scroll: "npm:^2.7.2"
     type-fest: "npm:^5.5.0"
   peerDependencies:
-    "@mantine/hooks": 9.0.1
+    "@mantine/hooks": 9.0.2
     react: ^19.2.0
     react-dom: ^19.2.0
-  checksum: 10c0/64cc3297ab48dc9c3d7d3d27379fac70838889b2f72d715654df2b73220d5eb122476ad87750ceb5d35108f986d8fd47de89fbd6a0eb9d8916b38b294cf011d0
+  checksum: 10c0/362352ea018c346e673abb9c37ca752fcdd5c0a5d3fb37f1d3a11bcf61452e66369bf9ef5be2289ae0291fb623ec6125a8701f645c7f569b96a76ca7bee7c49e
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@mantine/hooks@npm:9.0.1"
+"@mantine/hooks@npm:9.0.2":
+  version: 9.0.2
+  resolution: "@mantine/hooks@npm:9.0.2"
   peerDependencies:
     react: ^19.2.0
-  checksum: 10c0/1d2f97f51d25466f0e0f13ac30a2557a1e9295b5475daa6fee52eedc95ad4c4c2e888ff07ecb12c06c82a2fcd78c5bcf0f804c2ba9c0da0206d2aebe11f36cde
+  checksum: 10c0/6027bd5e8519d65e3906cfeb345317c502d148381ebaafe9a76766464d497c8d155a054b5dd7325e2757002b4334d2a31e38aefee9856167fe3f4dc3335534a3
   languageName: node
   linkType: hard
 
@@ -1336,6 +1336,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.5.10":
+  version: 8.5.10
+  resolution: "postcss@npm:8.5.10"
+  dependencies:
+    nanoid: "npm:^3.3.11"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/c592dffa0c4873b401f01955b265538d9942f425040df5e2b8f0ad34c83773a792ea0fa5859ccc99cfb5b955b4ebff118ab7056315388dc83b107b0fa8313576
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^8.5.8":
   version: 8.5.8
   resolution: "postcss@npm:8.5.8"
@@ -1347,23 +1358,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5.9":
-  version: 8.5.9
-  resolution: "postcss@npm:8.5.9"
-  dependencies:
-    nanoid: "npm:^3.3.11"
-    picocolors: "npm:^1.1.1"
-    source-map-js: "npm:^1.2.1"
-  checksum: 10c0/7cb2b32202ea1ead03f15cfbb2756a64a0f98942378e99b3dfce33678fe5eaf93e31d675a46e3a0dfb417d7b49b82d8999d0dd42a33c3b128e71ade0f978719a
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^3.8.2":
-  version: 3.8.2
-  resolution: "prettier@npm:3.8.2"
+"prettier@npm:^3.8.3":
+  version: 3.8.3
+  resolution: "prettier@npm:3.8.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/2d64bd01d269c8dd6d8c423a2a2e1fb88230a53aac523204b327de40059ccf8bd8e6fe70b8ce6154b97ed4442e9fd878504ff8a5330f3a4f64bd13d1576f7652
+  checksum: 10c0/754816fd7593eb80f6376d7476d463e832c38a12f32775a82683adb6e35b772b1f484d65f19401507b983a8c8a7cd5a4a9f12006bd56491e8f35503473f77473
   languageName: node
   linkType: hard
 
@@ -1730,23 +1730,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^6.0.2":
-  version: 6.0.2
-  resolution: "typescript@npm:6.0.2"
+"typescript@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "typescript@npm:6.0.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/4b860b0bf87cc0fee0f66d8ef2640b5a8a8a8c74d1129adb82e389e5f97124383823c47946bef8a73ede371461143a3aa8544399d2133c7b2e4f07e81860af7f
+  checksum: 10c0/4a25ff5045b984370f48f196b3a0120779b1b343d40b9a68d114ea5e5fff099809b2bb777576991a63a5cd59cf7bffd96ff6fe10afcefbcb8bd6fb96ad4b6606
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^6.0.2#optional!builtin<compat/typescript>":
-  version: 6.0.2
-  resolution: "typescript@patch:typescript@npm%3A6.0.2#optional!builtin<compat/typescript>::version=6.0.2&hash=5786d5"
+"typescript@patch:typescript@npm%3A^6.0.3#optional!builtin<compat/typescript>":
+  version: 6.0.3
+  resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/49f0b84fc6ca55653e77752b8a61beabc09ee3dae5d965c31596225aa6ef213c5727b1d2e895b900416dc603854ba0872ac4a812c2a4ed6793a601f9c675de02
+  checksum: 10c0/2f25c74e65663c248fa1ade2b8459d9ce5372ff9dad07067310f132966ebec1d93f6c42f0baf77a6b6a7a91460463f708e6887013aaade22111037457c6b25df
   languageName: node
   linkType: hard
 
@@ -1812,18 +1812,18 @@ __metadata:
   dependencies:
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.7.1"
     "@iconify/react": "npm:^6.0.2"
-    "@mantine/core": "npm:9.0.1"
-    "@mantine/hooks": "npm:9.0.1"
+    "@mantine/core": "npm:9.0.2"
+    "@mantine/hooks": "npm:9.0.2"
     "@types/react": "npm:^19.2.14"
     "@types/react-dom": "npm:^19.2.3"
     "@vitejs/plugin-react": "npm:^6.0.1"
-    postcss: "npm:^8.5.9"
+    postcss: "npm:^8.5.10"
     postcss-preset-mantine: "npm:1.18.0"
     postcss-simple-vars: "npm:^7.0.1"
-    prettier: "npm:^3.8.2"
+    prettier: "npm:^3.8.3"
     react: "npm:^19.2.5"
     react-dom: "npm:^19.2.5"
-    typescript: "npm:^6.0.2"
+    typescript: "npm:^6.0.3"
     vite: "npm:^8.0.8"
   languageName: unknown
   linkType: soft
