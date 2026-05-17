@@ -12,8 +12,8 @@
     "prettier": "prettier --check \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@mantine/core": "9.1.1",
-    "@mantine/hooks": "9.1.1",
+    "@mantine/core": "9.2.1",
+    "@mantine/hooks": "9.2.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
@@ -22,13 +22,13 @@
     "@iconify/react": "^6.0.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
+    "@vitejs/plugin-react": "^6.0.2",
     "postcss": "^8.5.14",
     "postcss-preset-mantine": "1.18.0",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.8.3",
     "typescript": "^6.0.3",
-    "vite": "^8.0.11"
+    "vite": "^8.0.13"
   },
   "packageManager": "yarn@4.9.2"
 }
