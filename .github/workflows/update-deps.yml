@@ -2,50 +2,49 @@ name: Auto Update Dependencies
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # Runs every Sunday at midnight UTC
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 permissions:
-  contents: write # Needed for pushing changes
+  contents: write
 
 jobs:
   update-deps:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: web # Run everything inside /web
+        working-directory: web
 
     steps:
-      # 1. Checkout repository
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js with Yarn cache
+      - name: Enable pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9 
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: "yarn"
-          cache-dependency-path: web/yarn.lock
+          node-version: 24.12
+          cache: "pnpm"
+          cache-dependency-path: web/pnpm-lock.yaml
 
-      # 3. Install npm-check-updates (works with Yarn too)
       - name: Install npm-check-updates
         run: npm install -g npm-check-updates
 
-      # 4. Update dependencies in package.json
       - name: Update package.json dependencies
-        run: ncu -u 
+        run: ncu -u
 
-      # 5. Install updated dependencies (allow lockfile update)
       - name: Install updated dependencies
-        run: yarn install --mode=update-lockfile
+        run: pnpm install --no-frozen-lockfile
 
-      # 6. Commit & push changes
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add package.json yarn.lock
+          git add package.json pnpm-lock.yaml
           if git commit -m "chore: update dependencies"; then
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
           else
