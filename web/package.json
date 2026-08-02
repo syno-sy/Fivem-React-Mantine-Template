@@ -12,22 +12,22 @@
     "prettier": "prettier --check \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "@mantine/core": "9.4.2",
-    "@mantine/hooks": "9.4.2",
+    "@mantine/core": "9.5.0",
+    "@mantine/hooks": "9.5.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
     "@iconify/react": "^6.0.2",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.4",
-    "postcss": "^8.5.23",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "postcss": "^8.5.25",
     "postcss-preset-mantine": "1.18.0",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^3.9.6",
     "typescript": "^7.0.2",
-    "vite": "^8.1.5"
+    "vite": "^8.2.0"
   }
 }
